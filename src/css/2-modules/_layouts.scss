@@ -1,0 +1,33 @@
+.container{
+	margin:0 40px;
+}
+
+.col-2{
+	// border-box:box-sizing;
+
+	@media (min-width: 550px) {
+		width:calc(50% - 70px);
+		margin:0 30px;
+		float:left;		
+	}
+}
+
+.col-4{
+	// border-box:box-sizing;
+
+	@media (min-width: 550px) {
+		width:calc(50% - 70px);
+		margin:0 30px;
+		float:left;		
+		background-color:red;
+	}
+}
+
+.group-1{
+	position:absolute;
+}
+
+.img-card{
+	position:relative;
+
+}
