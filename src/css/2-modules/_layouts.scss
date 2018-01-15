@@ -1,25 +1,14 @@
 .container{
-	margin:0 40px;
+	// margin:0 40px;
 }
 
 .col-2{
 	// border-box:box-sizing;
 
 	@media (min-width: 550px) {
-		width:calc(50% - 70px);
+		width:calc(50% - 60px);
 		margin:0 30px;
 		float:left;		
-	}
-}
-
-.col-4{
-	// border-box:box-sizing;
-
-	@media (min-width: 550px) {
-		width:calc(50% - 70px);
-		margin:0 30px;
-		float:left;		
-		background-color:red;
 	}
 }
 
@@ -30,4 +19,44 @@
 .img-card{
 	position:relative;
 
+}
+.gallery{
+	width:100%;
+	position:absolute;
+	background-color:green;
+	padding:0 2%;
+	margin: 0 auto;
+
+
+	.card{
+		padding:5px 16px;
+		max-width:250px;
+		margin:auto;
+		display:block;
+
+		@media (min-width: 550px) {
+			width:calc(25%-70px);
+			margin:0;
+			float:left;		
+			background-color:red;
+			
+			.card:after {
+	  		 content: "";
+	 		 clear: both;
+			}
+		
+			.img-wrapper{
+				position:relative;
+				max-width:220px;
+
+				width:150px;
+				height:150px;
+				border-radius:50%;
+				background:url("http://lorempixel.com/output/food-q-c-640-480-9.jpg");
+				padding:0 0;
+				margin:20px;
+			}
+
+		}
+		}
 }
