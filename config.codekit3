@@ -37,6 +37,17 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
+	"\/src\/assets\/background.png": {
+		"ft": 32768,
+		"iS": 1617468,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/Graph.png": {
 		"ft": 32768,
 		"iS": 7892,
@@ -1199,6 +1210,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_site\/css\/3-layouts\/_-pages-index.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/src\/css\/3-layouts\/_hero.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/css\/3-layouts\/_hero.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
