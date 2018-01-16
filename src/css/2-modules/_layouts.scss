@@ -2,6 +2,16 @@
 	margin:0 100px;
 }
 
+.col-60{
+	// border-box:box-sizing;
+
+	@media (min-width: 550px) {
+		width:calc(60% - 60px);
+		margin:0 30px;
+		float:left;		
+	}
+}
+
 .col-2{
 	// border-box:box-sizing;
 
@@ -37,6 +47,10 @@ section.intro{
 		right:0;
 
 	}
+
+	hr{
+		margin:0 0 20px 0;
+	}
 }
 // Gallery section
 .gallery{
@@ -44,6 +58,8 @@ section.intro{
 	display:flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+
+	margin:30px 0 0 0;
 	
 	@media (min-width: 550px) {
 		flex-direction: row;
