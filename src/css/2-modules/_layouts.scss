@@ -1,5 +1,5 @@
 .container{
-	// margin:0 40px;
+	margin:0 100px;
 }
 
 .col-2{
@@ -20,42 +20,73 @@
 	position:relative;
 
 }
+
+// intro 
+section.intro{
+	display:block;
+	position:relative;
+	overflow:auto;
+	height:100%;
+	
+	.col-2{
+		
+	}
+	.graph{
+		position:absolute;
+		bottom:0;
+		right:0;
+
+	}
+}
+// Gallery section
 .gallery{
 	width:100%;
-	position:absolute;
-	background-color:green;
-	padding:0 2%;
-	margin: 0 auto;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+	@media (min-width: 550px) {
+		flex-direction: row;
+
+	}
 
 
 	.card{
-		padding:5px 16px;
+		flex: 1;
 		max-width:250px;
-		margin:auto;
-		display:block;
+		flex-direction: column;
+
+
+		.img-wrapper{
+				
+			max-width:220px;
+
+			width:150px;
+			height:150px;
+			border-radius:50%;
+			background:url("/assets/shoes-1.jpg") no-repeat center;
+			background-size: 150px 150px; 
+
+			padding:0 0;
+			margin:0 auto;
+			}
+		
+		.card-info{
+			text-align:center;
+			padding:0;
+			margin:0 10px;
+
+			h4{
+				margin:15px 0;
+			}
+		}	
 
 		@media (min-width: 550px) {
 			width:calc(25%-70px);
-			margin:0;
-			float:left;		
-			background-color:red;
+			margin:0 10px;
+			max-width:100%;
 			
-			.card:after {
-	  		 content: "";
-	 		 clear: both;
-			}
 		
-			.img-wrapper{
-				position:relative;
-				max-width:220px;
-
-				width:150px;
-				height:150px;
-				border-radius:50%;
-				background:url("http://lorempixel.com/output/food-q-c-640-480-9.jpg");
-				padding:0 0;
-				margin:20px;
-			}
 
 		}
 		}

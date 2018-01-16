@@ -37,6 +37,27 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
+	"\/src\/assets\/Graph.png": {
+		"ft": 32768,
+		"iS": 7892,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/Graph.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/shoes-1.jpg": {
+		"ft": 16384,
+		"iS": 3081967,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/shoes-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
