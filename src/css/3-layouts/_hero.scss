@@ -12,3 +12,21 @@ section{
 	height: 100vh;
 
 }
+
+div.social{
+	position:absolute;
+	top:350px;
+	left:100px;
+	// background-color:green;
+
+	ul{
+		li{
+			background: url('assets/facebook.png') no-repeat;
+			position:relative;
+			width:100px;
+			height:50px;
+			list-style:none;
+			margin:10px 0;
+		}
+	}
+}
